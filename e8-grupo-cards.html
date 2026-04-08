@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card group</title>
+  <style>
+    main{
+      display: flex;
+      justify-content: space-around;
+      font-family: sans-serif;
+    }
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+    }
+    .card-title{
+      background-color: black;
+      color: white;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-footer{
+      background-color: bisque;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-content{
+      flex: 1 1 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="card">
+      <section class="card-title">
+        <h2>Tarjeta de presentacion</h2>
+      </section>
+      <section class="card-content">
+        <p>Contenido del cuerpo de la tarjeta</p>
+        <p>Contenido del cuerpo de la tarjeta</p>
+        <p>Contenido del cuerpo de la tarjeta</p>
+      </section>
+      <section class="card-footer">
+        <h4>Pie de la tarjeta</h4>
+      </section>
+    </section>
+
+    <section class="card">
+      <section class="card-title">
+        <h2>Tarjeta de presentacion</h2>
+      </section>
+      <section class="card-content">
+        <p>Contenido del cuerpo de la tarjeta</p>
+      </section>
+      <section class="card-footer">
+        <h4>Pie de la tarjeta</h4>
+      </section>
+    </section>
+
+    <section class="card">
+      <section class="card-title">
+        <h2>Tarjeta de presentacion</h2>
+      </section>
+      <section class="card-content">
+        <p>Contenido del cuerpo de la tarjeta</p>
+      </section>
+      <section class="card-footer">
+        <h4>Pie de la tarjeta</h4>
+      </section>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card</title>
+  <style>
+    .card{
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
+      width: 40%;
+      /* align-items: center; */
+    }
+    .card-title{
+      background-color: black;
+      color: white;
+      flex: 1 0 1;
+      text-align: center;
+    }
+    .card-content{
+      background-color: rgb(247, 247, 236);
+      flex: 3 1 150px;
+    }
+    .card-footer{
+      background-color: rgb(214, 214, 214);
+      color: white;
+      flex: 1 0 1;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <section class="card">
+    <section class="card-title">
+      <h2>Tarjeta de presentacion</h2>
+    </section>
+    <section class="card-content">
+      <p>Contenido del cuerpo de la tarjeta</p>
+    </section>
+    <section class="card-footer">
+      <h4>Pie de la tarjeta</h4>
+    </section>
+  </section>
+</body>
+</html>

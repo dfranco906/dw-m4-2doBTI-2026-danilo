@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+      background-color: rgb(22, 141, 141);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      margin: 0;
+    }
+    .columnas{
+      display: flex;
+      gap: 5px;
+      height: 80vh;
+    }
+    .sidebar{
+      flex: 1 1 auto;
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 24px;
+    }
+    .zona-central{
+      flex: 2 0 auto;
+      background-color: rgb(199, 255, 197);
+      color: rgb(221, 31, 31);
+      text-align: center;
+      padding: 24px;
+    }
+  </style>
+</head>
+<body>
+  <head>
+    <h1>TITULO PRINCIPAL</h1>
+  </head>
+  <section class="columnas">
+    <div class="sidebar">Lado Izquierdo</div>
+    <div class="zona-central">Zona Central</div>
+    <div class="sidebar">Lado Derecho</div>
+  </section>
+</body>
+</html>

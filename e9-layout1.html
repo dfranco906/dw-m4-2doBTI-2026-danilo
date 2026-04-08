@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi pagina</title>
+  <style>
+    body{
+      display: flex;
+      gap: 5px;
+    }
+    .col-left{
+      background-color: #23998e;
+      height: 100vh;
+      flex: 2 1 auto;
+    }
+    .col-right{
+      height: 100vh;
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 5px;
+      justify-content: center;
+    }
+    div{
+      border: solid 1px lightgrey;
+      flex: 1 1 auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <section class="col-left">
+    <h2>Columna Izquierda</h2>
+  </section>
+  <section class="col-right">
+    <div>
+      Derecha parte alta
+    </div>
+    <div>
+      Derecha parte baja
+    </div>
+  </section>
+</body>
+</html>

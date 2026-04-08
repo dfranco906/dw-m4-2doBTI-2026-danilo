@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+  <style>
+    main{
+      display: flex;
+      gap: 2px;
+    }
+    .sidebar{
+      height: 100vh;
+      background-color: aquamarine;
+      flex-grow: 1;
+      padding-left: 24px;
+      padding-top: 12px;
+    }
+    .content-site{
+      height: 100vh;
+      background-color: bisque;
+      flex-grow: 4;
+      padding-left: 24px;
+      padding-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="sidebar">
+      <p>Contenido lateral</p>
+    </section>
+    <section class="content-site">
+      <p>Contenido principal</p>
+    </section>
+  </main>
+</body>
+</html>
